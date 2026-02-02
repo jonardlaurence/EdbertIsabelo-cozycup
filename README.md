@@ -12,7 +12,7 @@ Cozy Cup Cafe is a simple and welcoming cafe website designed to showcase the ca
 
 ## Screen Captures  
 
-![Home Page](img/homepage.png)
+![Home Page](img/home.png)
 This image displays the website header and the main landing page of Cozy Cup Cafe.
 
 ![Menu Page](img/menu.png)
@@ -21,7 +21,7 @@ This image showcases the cafe’s menu, highlighting the available food and beve
 ![About Page](img/aboutus.png)
 This image presents the story behind the business and introduces the owners of Cozy Cup Cafe.
 
-![Contact Page](img/contact.png)
+![Contact Page](img/contactus.png)
 This image displays the contact details and background design of Cozy Cup Cafe.
 
 
