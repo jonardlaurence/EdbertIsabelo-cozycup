@@ -8,11 +8,11 @@
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="centered-nav">
             <div class="logo">
                 <img src="img/logo.png" alt="CozyCup Café Logo">
             </div>
-            <ul>
+            <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#about">About Us</a></li>
@@ -22,28 +22,116 @@
     </header>
 
     <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>Cozy Cup Cafe is a simple and welcoming cafe website designed to showcase the cafe’s menu, ambiance, and services. The project focuses on a clean layout, warm visuals, and an easy-to-navigate user experience that reflects the cozy atmosphere of the cafe.</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
+        <div class="hero-content">
+            <h1>Welcome to CozyCup Café</h1>
+            <p>Cozy Cup Cafe is a simple and welcoming cafe website designed to showcase the cafe’s menu, ambiance, and services. The project focuses on a clean layout, warm visuals, and an easy-to-navigate user experience that reflects the cozy atmosphere of the cafe.</p>
+            <a href="#menu" class="cta-button">Explore Menu</a>
+        </div>
     </section>
 
     <section id="menu" class="menu">
         <h2>Our Menu</h2>
-        <!-- Add menu items here -->
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="img/Best Matcha Bubble Tea.jpg" alt="Matcha Bubble Tea">
+                <h3>Matcha Bubble Tea</h3>
+                <p>Smooth and creamy matcha latte with chewy boba pearls</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Starbucks Double Chocolate Chip Frappuccino.jpg" alt="Double Chocolate Chip Frappuccino">
+                <h3>Chocolate Frappuccino</h3>
+                <p>Rich double chocolate chip frozen beverage</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Classic French Toast Recipe.jpg" alt="French Toast">
+                <h3>Classic French Toast</h3>
+                <p>Golden-brown French toast served with syrup and butter</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Light & Crisp Belgian Waffles - Taming of the Spoon.jpg" alt="Belgian Waffles">
+                <h3>Belgian Waffles</h3>
+                <p>Light, crispy waffles served with fresh toppings</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Quick & Easy Chocolate Almond Croissants.jpg" alt="Chocolate Almond Croissants">
+                <h3>Chocolate Almond Croissants</h3>
+                <p>Flaky pastries filled with chocolate and almonds</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Nutella Tiramisu.jpg" alt="Nutella Tiramisu">
+                <h3>Nutella Tiramisu</h3>
+                <p>Decadent tiramisu with creamy Nutella layers</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Strawberry Compote Recipe.jpg" alt="Strawberry Compote">
+                <h3>Strawberry Compote</h3>
+                <p>Fresh strawberry compote served with cream and pastries</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/Strawberry Compote Recipe.jpg" alt="Strawberry Compote">
+                <h3>Strawberry Compote</h3>
+                <p>Fresh strawberry compote served with cream and pastries</p>
+            </div>
+            <div class="menu-item">
+                <img src="img/download (8).jpg" alt="Easy Oreo">
+                <h3>Easy Oreo</h3>
+                <p>Delicious and simple Oreo creation perfect for any occasion</p>
+            </div>
+        </div>
     </section>
 
     <section id="about" class="about">
         <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
+        <div class="about-content">
+            <p>Cozy Cup Cafe is a warm and inviting place created for people who love good coffee, great food, and a relaxing atmosphere. Our cafe is designed to feel like a second home—where friends meet, ideas flow, and every cup is made with care.</p>
+
+            <p>We believe that coffee is more than just a drink; it’s an experience. That’s why we carefully prepare every beverage and meal using quality ingredients while maintaining a cozy environment that helps customers unwind and enjoy the moment.</p>
+
+            <p class="about-goal"><strong>At Cozy Cup Cafe, our goal is simple:</strong><br>to serve comfort, one cup at a time.</p>
+        </div>
+
+        <!-- team-grid moved to Contact section -->
     </section>
 
     <section id="contact" class="contact">
         <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
+        <div class="contact-content">
+            <p>Have questions or feedback? Reach out to us — we'd love to hear from you.</p>
+
+            <div class="contact-grid">
+                <a class="contact-item" href="https://www.facebook.com/cozycupcafe" target="_blank" rel="noopener noreferrer" aria-label="CozyCup Facebook">
+                    <img src="img/facebook.png" alt="Facebook icon">
+                    <span>Facebook</span>
+                </a>
+
+                <a class="contact-item" href="mailto:cozycup.cafe@gmail.com" aria-label="Email CozyCup">
+                    <img src="img/google.png" alt="Gmail icon">
+                    <span>Email Us</span>
+                </a>
+            </div>
+            
+            <div class="team-grid contact-team">
+                <div class="team-card">
+                    <a href="https://www.facebook.com/share/1Hh5b3pWoc/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/jonard.jpg" alt="Jonard Laurence B. Ganeso">
+                    </a>
+                    <h3>Jonard Laurence B. Ganeso</h3>
+                    <p>Jonard manages daily operations and helps create the warm, welcoming atmosphere at CozyCup. Her passion for hospitality ensures every guest feels right at home.</p>
+                </div>
+
+                <div class="team-card">
+                    <a href="https://www.facebook.com/edbertisabelo.06/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/edbert.jpg" alt="Edbert S. Isabelo">
+                    </a>
+                    <h3>Edbert S. Isabelo</h3>
+                    <p>Edbert is our coffee expert who loves sourcing the finest beans and crafting the perfect cup. With years of barista experience, he makes sure every brew meets our highest standards.</p>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+        <p>&copy; 2026 CozyCup Café by Isabelo & Ganeso. All rights reserved.</p>
     </footer>
 </body>
 </html>
